@@ -49,6 +49,17 @@
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
+#content5-31 .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-31 .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-31 .mbr-article {
+  color: #fff;
+}
 #content5-8 .mbr-header .mbr-header__text {
   text-align: center;
   color: #ffffff;
@@ -62,6 +73,34 @@
 #content5-8 .mbr-article {
   color: #fff;
 }
+#content5-2z .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-2z .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-2z .mbr-article {
+  color: #fff;
+}
+#gallery1-2v SMALL {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: #ffffff;
+}
+#content5-30 .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-30 .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-30 .mbr-article {
+  color: #fff;
+}
 #header3-1g H3 {
   color: #4c6972;
   text-align: center;
@@ -69,12 +108,6 @@
 }
 #header3-1g SPAN {
   font-size: 36px;
-}
-#gallery1-2v SMALL {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
-  color: #ffffff;
 }
 #contacts1-j P {
   color: #4c6972;
