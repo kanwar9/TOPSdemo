@@ -1,9 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
 
@@ -26,16 +24,16 @@
   font-size: 100px;
   font-family: 'Lato', sans-serif;
 }
-#header3-w H3 {
+#content5-2w .mbr-header .mbr-header__text {
   text-align: center;
-  color: #b8312f;
-  font-size: 60px;
-  font-family: 'Montserrat', sans-serif;
+  color: #fff;
 }
-#header3-w P {
+#content5-2w .mbr-header .mbr-header__subtext {
   text-align: center;
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+#content5-2w .mbr-article {
+  color: #fff;
 }
 #slider-2 H1 {
   color: #ffffff;
@@ -47,19 +45,6 @@
   color: #000000;
   text-align: right;
 }
-#header3-z H3 {
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-}
-#msg-box4-3 .mbr-header__text {
-  color: #ffffff;
-}
-#msg-box4-3 .mbr-header__subtext {
-  color: #ffffff;
-}
-#msg-box4-3 .mbr-article {
-  color: #ffffff;
-}
 #features1-b P {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -68,7 +53,7 @@
   text-align: center;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 60px;
+  font-size: 46px;
 }
 #content5-8 .mbr-header .mbr-header__subtext {
   text-align: center;
@@ -77,10 +62,18 @@
 #content5-8 .mbr-article {
   color: #fff;
 }
-#gallery2-1f SMALL {
-  font-size: 19px;
+#header3-1g H3 {
+  color: #4c6972;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+#header3-1g SPAN {
+  font-size: 36px;
+}
+#gallery1-2v SMALL {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
   color: #ffffff;
 }
 #contacts1-j P {
