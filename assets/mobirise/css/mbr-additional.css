@@ -270,6 +270,7 @@
   color: #b8312f;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  text-align: center;
 }
 #dropdown-menu-2btn-1t .hide-buttons [data-button] {
   display: none !important;

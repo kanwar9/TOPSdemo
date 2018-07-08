@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TOPS",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -857,7 +857,7 @@
             }
           },
           "title": "",
-          "text": "<p>After Clearance Shipment Delivery, Tracking Of </p><p>Unexpected Situations Such As Adverse </p><p>Weather Conditions, Additional Pickups Or </p><p>Dropoffs And Heavy Traffic Notifications.</p>",
+          "text": "<p>After Clearance Shipment Delivery, Tracking Of Unexpected Situations Such As Adverse Weather Conditions, Additional Pickups Or Dropoffs And Heavy Traffic Notifications.</p>",
           "_tags": [
             "Theme"
           ],
@@ -931,7 +931,7 @@
             }
           },
           "title": "",
-          "text": "<div><br></div><div><br></div><div><br></div><div>The cargo is then segregated as per the</div><div><br></div><div>spokes or the routes and is dispatched</div><div><br></div><div>accordingly.&nbsp;</div><div><br></div><div><br></div><div><br></div>",
+          "text": "<div><br></div><div><br></div><div><br></div><div>The cargo is then segregated as per the</div><div>spokes or the routes and is dispatched<br></div><div>accordingly.&nbsp;<br></div><div><br></div><div><br></div><div><br></div>",
           "_tags": [
             "Theme"
           ],
@@ -1239,7 +1239,7 @@
             }
           },
           "title": "",
-          "text": "<p>We generate all proper documentations<br></p><p>and and making sure that your logisitcs </p><p>process is seemingly smooth.</p>",
+          "text": "<p>We generate all proper documentations and making sure that your logisitcs process is seemingly smooth.</p>",
           "_tags": [
             "Theme"
           ],
@@ -1313,7 +1313,7 @@
             }
           },
           "title": "",
-          "text": "<p>We at TOPS like to engage in real-time</p><p> updates and coordination with all our </p><p>customers.</p><p><br></p>",
+          "text": "<p>We at TOPS like to engage in real-time updates and coordination with all our customers.</p>",
           "_tags": [
             "Theme"
           ],
@@ -1331,7 +1331,8 @@
               "color": "#b8312f",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "20px"
+              "font-size": "20px",
+              "text-align": "center"
             }
           },
           "headerAlign": "left",
@@ -1615,7 +1616,7 @@
             }
           },
           "title": "",
-          "text": "<p><br></p><p><br></p><p>Our long-standing relationship with all</p><p> major airline carriers enables us to offer </p><p>direct and ‘consolidation’ services, for</p><p> various destinations with confirmed</p><p>space allocation at the most competitive rates.</p>",
+          "text": "<p>Our long-standing relationship with all major airline carriers enables us to offer direct and ‘consolidation’ services, for various destinations with confirmed space allocation at the most competitive rates.</p>",
           "_tags": [
             "Theme"
           ],
@@ -1689,7 +1690,7 @@
             }
           },
           "title": "",
-          "text": "<p><br></p><p><br></p><p>Our teams of dedicated Air professionals </p><p>realize the time critical nature of goods </p><p>moving through this channel and focus highly </p><p>on providing the best level of service to all its </p><p>customers.</p><p><br></p>",
+          "text": "<p>Our teams of dedicated Air professionals realize the time critical nature of goods moving through this channel and focus highly on providing the best level of service to all its customers.</p><p><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -1992,7 +1993,7 @@
             }
           },
           "title": "<br><br><br><br>",
-          "text": "<p>Our Experts Not Only Ensure That Your Cargo Is </p><p>Delivered On Time But Also Keep You Updated </p><p>With Frequent Follow-ups.&nbsp;</p>",
+          "text": "<p>Our Experts Not Only Ensure That Your Cargo Is Delivered On Time But Also Keep You Updated With Frequent Follow-ups.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
@@ -2066,7 +2067,7 @@
             }
           },
           "title": "",
-          "text": "<p><br></p><p><br></p><p><br></p><p>With Multiple Sailings Each Week, We Keep A </p><p>Continuous Tracking Of Shipments Using The </p><p>Latest Online Tracking Systems</p><p><br></p>",
+          "text": "<p>With Multiple Sailings Each Week, We Keep A Continuous Tracking Of Shipments Using The Latest Online Tracking Systems</p><p><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -2369,7 +2370,7 @@
             }
           },
           "title": "",
-          "text": "<p>We Handle Shipments Of \nEvery Dimension,</p><p> Including Specialized Lifts, Oversized Cargo, \n</p><p>Multimodal Shipments And Customized Logistics.</p>",
+          "text": "<p>We Handle Shipments Of \nEvery Dimension, Including Specialized Lifts, Oversized Cargo, Multimodal Shipments And Customized Logistics.</p>",
           "_tags": [
             "Theme"
           ],
@@ -2672,7 +2673,7 @@
             }
           },
           "title": "",
-          "text": "<p>We Have Multiple \nWarehouse &amp; Distribution </p><p>Networks In All The Major Cities \nWith An </p><p>Information-driven Supply Chain Through The </p><p>Development \nOf Global Visibility And </p><p>Knowledge Management Services<br></p>",
+          "text": "<p>We Have Multiple \nWarehouse &amp; Distribution Networks In All The Major Cities \nWith An Information-driven Supply Chain Through The Development \nOf Global Visibility And Knowledge Management Services</p>",
           "_tags": [
             "Theme"
           ],
