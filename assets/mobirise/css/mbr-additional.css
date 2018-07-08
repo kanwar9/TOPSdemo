@@ -136,7 +136,7 @@
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   text-align: right;
-  font-size: 48px;
+  font-size: 30px;
 }
 #msg-box4-1m .mbr-header__subtext {
   color: #ffffff;
@@ -162,7 +162,7 @@
 #msg-box4-2f .mbr-article P {
   color: #b8312f;
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 20px;
 }
 #msg-box4-1n .mbr-header__text {
   color: #ffffff;
@@ -180,7 +180,7 @@
 #msg-box4-1n .mbr-article DIV {
   color: #c12234;
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 20px;
 }
 #dropdown-menu-2btn-1t .hide-buttons [data-button] {
   display: none !important;
@@ -229,7 +229,7 @@
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   text-align: right;
-  font-size: 48px;
+  font-size: 30px;
 }
 #msg-box4-1q .mbr-header__subtext {
   color: #ffffff;
@@ -255,7 +255,7 @@
 #msg-box4-28 .mbr-article P {
   color: #b8312f;
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 20px;
 }
 #msg-box4-1r .mbr-header__text {
   color: #ffffff;
@@ -269,7 +269,7 @@
 #msg-box4-1r .mbr-article P {
   color: #b8312f;
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 20px;
 }
 #dropdown-menu-2btn-1t .hide-buttons [data-button] {
   display: none !important;
@@ -318,7 +318,7 @@
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   text-align: right;
-  font-size: 48px;
+  font-size: 30px;
 }
 #msg-box4-1v .mbr-header__subtext {
   color: #ffffff;
@@ -343,7 +343,7 @@
 }
 #msg-box4-2e .mbr-article P {
   color: #b8312f;
-  font-size: 23px;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
 }
 #msg-box4-1w .mbr-header__text {
@@ -358,7 +358,7 @@
 #msg-box4-1w .mbr-article P {
   color: #b8312f;
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 20px;
 }
 #dropdown-menu-2btn-1t .hide-buttons [data-button] {
   display: none !important;
@@ -407,7 +407,7 @@
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   text-align: right;
-  font-size: 48px;
+  font-size: 30px;
 }
 #msg-box4-1y .mbr-header__subtext {
   color: #ffffff;
@@ -433,7 +433,7 @@
 #msg-box4-2d .mbr-article P {
   color: #b8312f;
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 20px;
 }
 #msg-box4-1z .mbr-header__text {
   color: #ffffff;
@@ -447,7 +447,7 @@
 #msg-box4-1z .mbr-article P {
   color: #b8312f;
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 20px;
 }
 #dropdown-menu-2btn-1t .hide-buttons [data-button] {
   display: none !important;
@@ -495,7 +495,7 @@
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   text-align: right;
-  font-size: 48px;
+  font-size: 30px;
 }
 #msg-box4-21 .mbr-header__subtext {
   color: #ffffff;
@@ -521,7 +521,7 @@
 #msg-box4-22 .mbr-article P {
   color: #b8312f;
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 20px;
 }
 #dropdown-menu-2btn-1t .hide-buttons [data-button] {
   display: none !important;
@@ -569,7 +569,7 @@
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   text-align: right;
-  font-size: 48px;
+  font-size: 30px;
 }
 #msg-box4-24 .mbr-header__subtext {
   color: #ffffff;
@@ -595,7 +595,7 @@
 #msg-box4-25 .mbr-article P {
   color: #b8312f;
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 20px;
 }
 #dropdown-menu-2btn-1t .hide-buttons [data-button] {
   display: none !important;
@@ -798,7 +798,7 @@
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   text-align: right;
-  font-size: 48px;
+  font-size: 30px;
 }
 #msg-box4-32 .mbr-header__subtext {
   color: #ffffff;
@@ -823,6 +823,7 @@
 }
 #msg-box4-33 .mbr-article P {
   color: #b8312f;
+  font-size: 20px;
 }
 #dropdown-menu-2btn-35 .hide-buttons [data-button] {
   display: none !important;
@@ -869,7 +870,7 @@
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   text-align: right;
-  font-size: 48px;
+  font-size: 30px;
 }
 #msg-box4-36 .mbr-header__subtext {
   color: #ffffff;
@@ -894,6 +895,7 @@
 }
 #msg-box4-37 .mbr-article P {
   color: #b8312f;
+  font-size: 20px;
 }
 #dropdown-menu-2btn-39 .hide-buttons [data-button] {
   display: none !important;
