@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TOPS",
-    "currentPage": "page10.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -45,7 +45,7 @@
             "showArrow": true,
             "contentAlign": "right",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/tops-website-final-12-2000x1010.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/homegd-12-12-2000x1250.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -105,7 +105,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/infographics-16-2000x494.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/tops-website-final-28-2000x799.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -2630,7 +2630,7 @@
             "showArrow": false,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/clients-10-2000x1105.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/clients-11-2000x1105.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
