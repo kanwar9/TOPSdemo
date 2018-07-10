@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
 
 
 
@@ -25,16 +26,9 @@
   font-size: 100px;
   font-family: 'Lato', sans-serif;
 }
-#content5-2w .mbr-header .mbr-header__text {
+#features1-3p P {
   text-align: center;
-  color: #fff;
-}
-#content5-2w .mbr-header .mbr-header__subtext {
-  text-align: center;
-  color: #fff;
-}
-#content5-2w .mbr-article {
-  color: #fff;
+  font-family: 'Open Sans', sans-serif;
 }
 #slider-2 H1 {
   color: #ffffff;
