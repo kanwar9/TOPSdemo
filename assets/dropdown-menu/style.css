@@ -694,14 +694,17 @@
 }
 
 
-
+.navbar-transparent{
+  background: transparent !important;
+  transition: background 0.5s;
+}
 
 .enlarge-logo{
   transform: scale(1);
   transition: transform 0.5s;
 }
 .enlarge-logo.animate-logo{
-  transform: scale(2);
+  transform: scale(2.7);
 }
 
 

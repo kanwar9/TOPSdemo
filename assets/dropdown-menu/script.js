@@ -280,9 +280,11 @@ jQuery(function(b) {
       console.log($(document).scrollTop());
       var ST = $(document).scrollTop();
       if(ST == 0){
-        $('.enlarge-logo').addClass('animate-logo')
+        $('.enlarge-logo').addClass('animate-logo');
+        $('.navbar').addClass('navbar-transparent');
       }else {
-        $('.enlarge-logo').removeClass('animate-logo')
+        $('.enlarge-logo').removeClass('animate-logo');
+        $('.navbar').removeClass('navbar-transparent');
       }
     })
 })(jQuery);
