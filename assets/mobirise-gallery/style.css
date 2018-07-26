@@ -24,7 +24,7 @@
     transition: .2s opacity ease-in-out;
 }
 .mbr-gallery .mbr-gallery-item > a:hover img {
-    opacity: 0.1;
+    opacity: 0;
 }
 .mbr-gallery .mbr-gallery-item .icon {
     position: absolute;
