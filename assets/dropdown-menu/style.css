@@ -693,7 +693,9 @@
     padding-bottom: 15px
 }
 
-
+.navbar-scroll{
+  transition: background 0.5s;
+}
 .navbar-transparent{
   background: transparent !important;
   transition: background 0.5s;

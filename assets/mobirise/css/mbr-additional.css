@@ -926,3 +926,12 @@
   font-family: 'Open Sans', sans-serif;
   text-align: right;
 }
+
+.tops-stat{
+    transition: transform 0.5s;
+    padding-top: 20px;
+}
+.tops-stat:hover{
+  z-index: 1;
+  transform: scale(1.2) !important;
+}
