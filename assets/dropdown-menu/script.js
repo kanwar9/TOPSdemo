@@ -277,14 +277,13 @@ jQuery(function(b) {
     });
 
     $(window).scroll(function() {
-      console.log($(document).scrollTop());
       var ST = $(document).scrollTop();
       if(ST == 0){
         $('.enlarge-logo').addClass('animate-logo');
-        $('.navbar').addClass('navbar-transparent');
+        $('.navbar-scroll').addClass('navbar-transparent');
       }else {
         $('.enlarge-logo').removeClass('animate-logo');
-        $('.navbar').removeClass('navbar-transparent');
+        $('.navbar-scroll').removeClass('navbar-transparent');
       }
     })
 })(jQuery);
