@@ -291,3 +291,17 @@
         })
     })
 })(jQuery);
+
+$(".service-Img").mouseenter(function() {
+   var classes = $(this).attr('class').split(' ');
+   var id = classes[1].split('-')[2];
+   var classname = ".hover-service-" + id;
+   $(classname).show();
+});
+
+$(".service-Img").mouseleave(function() {
+    var classes = $(this).attr('class').split(' ');
+    var id = classes[1].split('-')[2];
+    var classname = ".hover-service-" + id;
+    $(classname).hide();
+});
