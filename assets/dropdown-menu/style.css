@@ -199,7 +199,7 @@
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:801px) {
     .navbar-toggleable-sm {
         display: block!important
     }
@@ -293,7 +293,7 @@
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:801px) {
     .hidden-md-up {
         display: none!important
     }

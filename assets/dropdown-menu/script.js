@@ -48,7 +48,7 @@ jQuery(function(b) {
         },
         g = {
             XS: 544,
-            SM: 768,
+            SM: 801,
             MD: 992,
             LG: 1200,
             XL: 1 / 0

@@ -120,7 +120,7 @@ html {
 .mbr-navbar--short .mbr-navbar__container {
   padding: 12px 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-navbar--short .mbr-navbar__brand-link:after,
   .mbr-navbar--short .mbr-navbar__brand-img {
     height: 31px;
@@ -421,7 +421,7 @@ html {
   -webkit-transform: translatey(-10px) rotate(-45deg);
   transform: translatey(-10px) rotate(-45deg);
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-hamburger {
     height: 23px;
     width: 27px;
@@ -618,7 +618,7 @@ html {
   margin: -10px 0 0;
   text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   .mbr-section--short-paddings .mbr-section__container--std-padding {
     padding: 59px 0;
   }
@@ -652,7 +652,7 @@ html {
     padding-bottom: 59px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-section__left {
     padding-right: 15px;
   }
@@ -731,7 +731,7 @@ html {
 .mbr-arrow--dark .mbr-arrow__link:focus {
   color: #252525;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-arrow {
     bottom: 41px;
   }
@@ -792,7 +792,7 @@ html {
 .mbr-box__container {
   height: 50%;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-box__container {
     height: 100%;
   }
@@ -1004,7 +1004,7 @@ html {
 .mbr-figure--no-bg.mbr-figure--caption-outside-bottom .mbr-figure__caption-small {
   color: #777;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-figure--adapted {
     display: block;
     width: 100%;
@@ -1091,7 +1091,7 @@ html {
   color: #999;
   font-size: 12px;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-reviews__author {
     padding-bottom: 32px;
   }
@@ -1099,7 +1099,7 @@ html {
     padding-bottom: 1px;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 770px) and (max-width: 991px) {
   .mbr-reviews__item:nth-of-type(2n+1) {
     clear: left;
   }
@@ -1153,7 +1153,7 @@ html {
   line-height: 1em;
   margin: 15px 0 0 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-header--inline {
     padding: 47px 0 38px 0;
   }
@@ -1167,7 +1167,7 @@ html {
     text-align: center !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   .mbr-header--reduce {
     margin-top: -5px;
     top: 2px;
@@ -1229,7 +1229,7 @@ html {
   margin: 0;
   padding: 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-contacts__img {
     margin-bottom: 10px;
   }
@@ -1366,7 +1366,7 @@ html {
     font-size: 15px !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-buttons--auto-align {
     left: 5px;
     margin-top: -26px;
@@ -1453,7 +1453,7 @@ html {
   font-size: 17px;
   border-color: #f97352;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-article--auto-align.mbr-article--wysiwyg p,
   .mbr-article--auto-align {
     text-align: left !important;
@@ -1581,7 +1581,7 @@ html {
 .mbr-plan--danger .mbr-plan__header {
   background: #f97352;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .mbr-plan,
   .mbr-plan--first,
   .mbr-plan:first-child {
@@ -1714,7 +1714,7 @@ html {
   text-decoration:none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .image-size{
     width: 100% !important;
   }
