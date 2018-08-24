@@ -957,3 +957,55 @@
 .mbr-header__360_logistic{
   text-align: center;
 }
+
+.tops-span-tops{
+    font-size: 36px;
+    /* color: #bf2235; */
+    color: #5c5c5c;
+    font-weight: bold;
+}
+
+.tops-span-about{
+    font-size: 36px;
+    /* color: #5c5c5c; */
+    color: #bf2235;
+    font-weight: bold;
+}
+.tops-about-content{
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: flex-end;
+  flex-direction: row;
+  font-size: 18px;
+  padding: 20px;
+  /* color: #bf2235; */
+  color: #5c5c5c;
+  margin-bottom: 50px;
+}
+.tops-about-texts{
+  position: relative;
+  display: block;
+  width: 75%;
+}
+.top-about-readmore{
+  position: relative;
+  display: flex;
+  width: 25%;
+  text-align: center;
+  text-decoration: none;
+}
+.top-about-readmore a, .top-about-readmore a:hover{
+  text-decoration: none;
+}
+.ReadMoreButton{
+  position: relative;
+  display: block;
+  padding: 12px 30px;
+  border: 3px solid #bf2235;
+  color: #5c5c5c;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
