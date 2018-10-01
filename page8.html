@@ -23,44 +23,83 @@
 <body>
   <section id="dropdown-menu-2btn-2h" data-rv-view="186">
 
-    <nav class="navbar navbar-dropdown navbar-fixed-top">
+        <nav class="navbar navbar-dropdown navbar-fixed-top">
 
-        <div class="container">
+            <div class="container">
 
-            <div class="navbar-brand">
-                <a href="index.html" class="navbar-logo"><img class="enlarge-logo" src="assets/images/tops-logo-4-111x128.png" alt="Mobirise"></a>
+                <div class="navbar-brand">
+                    <a href="index.html" class="navbar-logo"><img class="enlarge-logo" src="assets/images/tops-logo-4-111x128.png" alt="Mobirise"></a>
+
+                </div>
+
+                <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                    <div class="hamburger-icon"></div>
+                </button>
+
+                            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar">
+                              <li class="nav-item"><a class="nav-link link" href="index.html" aria-expanded="false">HOME</a></li>
+                              <li class="nav-item"><a class="nav-link link" href="page8.html" aria-expanded="false">ABOUT US</a></li>
+                              <li class="nav-item"><a class="nav-link link" href="page13.html" aria-expanded="false">Why Tops</a></li>
+                              <li class="nav-item dropdown nav-service">
+                                <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">SERVICES</a>
+                                <div class="dropdown-menu dropdown-service-menu">
+                                  <a class="dropdown-item" href="page3.html">Custom Clearance</a>
+                                  <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false"style="
+                    padding-left: 20px;
+                ">Freight Forwarding</a>
+                                  <div class="dropdown-menu dropdown-submenu dropdown-freight-menu">
+                                  <a class="dropdown-item" href="page4.html">Air Freight</a>
+                                  <a class="dropdown-item" href="page2.html">Road Freight</a>
+                                  <a class="dropdown-item" href="page5.html">Sea Freight</a>
+                                </div>
+                                              <a class="dropdown-item" href="page6.html">Project Management</a>
+                                  <a class="dropdown-item" href="page7.html">Warehouse &amp; Distribution</a>
+                                  <a class="dropdown-item" href="page11.html" aria-expanded="false">Consultancy Services</a>
+                                  <a class="dropdown-item" href="page12.html" aria-expanded="false">LCL Consolidation</a>
+                                </div>
+                              </li>
+                              <li class="nav-item"><a class="nav-link link" href="page9.html">CLIENTS</a></li>
+                              <li class="nav-item"><a class="nav-link link" href="page14.html">CARRERS</a></li>
+
+                              <li class="nav-item dropdown"><a class="nav-link link" href="page10.html" aria-expanded="false">CONTACT US</a></li>
+                              <li class="nav-item nav-btn" ><a class="nav-link btn btn-link" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Get a Quote</a></li>
+                            </ul>
 
             </div>
 
-            <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
-                <div class="hamburger-icon"></div>
+        </nav>
+
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Get  A Quote</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
             </button>
-
-            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar">
-              <li class="nav-item"><a class="nav-link link" href="index.html" aria-expanded="false">HOME</a></li>
-              <li class="nav-item"><a class="nav-link link" href="page8.html" aria-expanded="false">ABOUT US</a></li>
-              <li class="nav-item"><a class="nav-link link" href="page8.html" aria-expanded="false">TOPS ADVANTAGE</a></li>
-              <li class="nav-item dropdown nav-service"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="https://mobirise.com/" aria-expanded="false">SERVICES</a>
-                <div class="dropdown-menu dropdown-service-menu">
-                  <a class="dropdown-item" href="page3.html">Custom Brokerage</a>
-                  <a class="dropdown-item" href="page4.html">Air Freight</a>
-                  <a class="dropdown-item" href="page2.html">Road Freight</a>
-                  <a class="dropdown-item" href="page5.html">Sea Freight</a>
-                  <a class="dropdown-item" href="page6.html">Project Management</a>
-                  <a class="dropdown-item" href="page7.html">Warehouse &amp; Distribution</a>
-                  <a class="dropdown-item" href="page11.html" aria-expanded="false">Consultancy Services</a>
-                  <a class="dropdown-item" href="page12.html" aria-expanded="false">LCL Consolidation</a>
+          </div>
+          <div class="modal-body">
+          <form action="formhandler.php" method="POST">
+    <div class="form-group">
+            <input type="text" class="form-control" placeholder="Name" name="name">
+          </div><div class="form-group">
+            <input type="email" class="form-control" placeholder="Email" name="email">
+                </div><div class="form-group">
+            <input type="tel" class="form-control" placeholder="Phone" name="phone">
+                </div><div class="form-group">
+            <textarea class="form-control" rows="3"></textarea>
+                </div><div class="form-group">
+            <input type="submit" class="form-control btn btn-lg btn-primary" value="Submit Form" >
                 </div>
-              </li>
-              <li class="nav-item"><a class="nav-link link" href="page9.html">CLIENTS</a></li>
-              <li class="nav-item dropdown"><a class="nav-link link" href="page10.html" aria-expanded="false">CONTACT US</a></li>
-              <li class="nav-item nav-btn"><a class="nav-link btn btn-link" href="assets/files/tops company profile.pdf" target="_blank">TOPS Profile</a></li>
-            </ul>
+          </form>
+          </div>
+
         </div>
-
-    </nav>
-
-</section>
+      </div>
+    </div>
 
 <section class="engine"><a href="https://mobirise.me/b">how to create a site</a></section><section class="mbr-section mbr-after-navbar" id="content1-2j" data-rv-view="184">
     <div class="mbr-section__container mbr-section__container--middle container">
@@ -74,63 +113,103 @@
     <div class="mbr-section__container mbr-section__container--middle container">
         <div class="row">
             <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p><strong>TOPS</strong></p><p> Is One Of The <strong>Leading Customs Brokers Since 1987</strong>,
+<p>
+
+              An Indian logistics company with a collective utilization of our worldwide network of offices and
+              associates, we are well capable of meeting the diverse needs of today’s demanding business
+              needs in the competitive markets.</p>
+              <p>
+              We offer International Freight Forwarding, Transportation, Distribution, Insurance, Custom
+              Clearance, Third Party Imports and Exports and EXIM consultancy services. We take pride to be
+              a specialist in CUSTOMS BROKING.
+            </p>
+              <p>Capacity, Capability and Connectivity is our strength which helps us to build ongoing
+              relationships with our customers.
+</p>
+          <p>    We have decades of experience in handling various types of Cargo through the major shipping
+              lines and airlines. As one of the pioneers, we have paved a way in GLOBAL LOGISTICS with a
+              record of over 30 years and still going strong.</p>
+        <p>      We seek to differentiate ourselves by offering the most reliable, flexible and cost effective
+              solutions to our customers. A benchmarked quality, standardized processes and operation
+              excellence makes us win all our customers’ trust.</p>
+
+              <p>Our network is PAN India comprising of 12 branches covering key ports and cities.</p>
+            </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted mbr-parallax-background" id="header4-2i" data-rv-view="188" style="background-image: url(assets/images/about-us-pic.jpg);">
+                <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-center">
+
+                    <div class="mbr-box__container mbr-section__container container">
+                        <div class="mbr-box mbr-box--stretched"><div class="mbr-box__magnet mbr-box__magnet--center-center">
+                            <div class="row"><div class=" col-sm-8 col-sm-offset-2">
+                                <div class="mbr-hero animated fadeInUp">
 
 
+                                </div>
 
-
-Having An In-house Team Of Qualified International Trade Professionals.
-We Have More Than <strong>Three Decades Of Experience In Handling Various Types
-Of Cargo`s At Major Ports</strong>.
-
-Experienced And Trained In Local Customs Procedures And
-Can Provide Advice On All Import And Export Regulations, Acts, Etc.
-
-Our Services Include : <strong>Customs Brokerage, Air Freight, Sea Freight,
-Road Transportation, Warehousing and Distribution, Project Management.</strong>
-
-Our Network Is Pan India Comprising Of 12 Branches Covering Key Ports
-And Cities. We Dedicate Ourselves To Having Your Goods Priority Cleared,
-Prior To Their Arrival At The Destination Port.
-
-As One Of The Pioneers, We Have Paved A Way In&nbsp;
-Global Logistics With A Record Of
-<strong>Over 35 Years</strong>&nbsp;&amp; Are Still Going Strong.
-
-A Benchmarked Quality, Standardized Processes And Operation
-Excellence Makes Us Win All Our Customers’ Trust.
-&nbsp;</p></div>
-        </div>
-    </div>
-</section>
-
-<section class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted mbr-parallax-background" id="header4-2i" data-rv-view="188" style="background-image: url(assets/images/about-us-9-2000x1105.jpg);">
-    <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-center">
-
-        <div class="mbr-box__container mbr-section__container container">
-            <div class="mbr-box mbr-box--stretched"><div class="mbr-box__magnet mbr-box__magnet--center-center">
-                <div class="row"><div class=" col-sm-8 col-sm-offset-2">
-                    <div class="mbr-hero animated fadeInUp">
-
-
+                            </div></div>
+                        </div></div>
                     </div>
 
-                </div></div>
-            </div></div>
-        </div>
+                </div>
+            </section>
+            <br/>
+<br/>
+            <section class="mbr-section" id="content1-2k" data-rv-view="185">
+                <div class="mbr-section__container mbr-section__container--middle container">
+                    <div class="row">
+                        <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2">
 
+<p>TOPS is established as the leading Custom House Agents primarily focusing on Custom-
+Clearance, Shipping, Project-Forwarding, International Freight Forwarding, Warehousing, Exim
+Projects, ODC &amp; Logistic Services in and around National Capital Region in India.</p>
+<p>
+Tops have emerged as exclusive Core-Customs Brokers, Pioneers in serving major industrial
+plants and MNC’s. Along with being the early birds in establishing Multimodal Logistics &amp; ICD
+Operations initially at Pragati Maidan (Earlier ICD of Northern Railway in mid 1980’s).</p>
+<p>
+We Deal in Clearance of IMPORT and EXPORT Cargo and have real expertise in Import Clearance
+of Capital Goods, New and Used Machinery, Equipments, Parts, Electronic Components,
+Automobile Components, Finished Goods, CBU’s, Chemicals and other Raw Materials.</p>
+<p>
+Tops is experienced, best equipped and clearing more than 1000 TEU’s per Month BY-SEA in
+ICD Tuglakabad-Delhi, ICD Patparganj-Delhi, ICD-Dadri Complex:-CFS Albatross, CFS Star Track
+Terminals &amp; CFS CMA-CGM, ICD Garhi Hasrur Gurgaon, ICD Patli-Gurgaon, ICD Ballabhgarh-
+ACTL Faridabad and BY-AIR Regular Daily Basis Shipments at IGI Airport Cargo Terminal New
+Delhi.</p>
+<p>
+We have been serving the Electronics, Automobile, Retail, Telecom and Textile Industry in
+northern India for over 30 Years and have been providing proficient speedy services to various
+leading MNC’s which include YKK India Pvt. Ltd., Panasonic India Ltd., Carrier Media India Pvt.
+Ltd., Maruchi-Kuma Stainless Tubes Ltd., STI Sanoh India Ltd., Samsung India Electronics Pvt.
+Ltd., LG Electronics India Pvt. Ltd, Sony India Ltd., Oberthur Technologies India Pvt. Ltd.,
+Carrefour WC&amp;C India Pvt. Ltd. etc.</p>
+<p>
+We specialize in clearance of CTV, LCD, Refrigerator, Washing machine, Microwave Oven
+Window/Split Air-conditioned, CBU’s Finished goods, Raw material, Components, Parts,
+Machines Equipments, New &amp; used Capital goods, Moulds, Dies, Steel Sheets, Zip Fasteners
+Shipments etc.
+  </p></div>
+        </div>
     </div>
 </section>
+
+
 
 <section class="mbr-section" id="image2-3o" data-rv-view="191">
     <div class="mbr-section__container container">
+      <br/>
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-outside-bottom mbr-figure--no-bg">
 
-                    <div><img src="assets/images/recocnitions-13-1400x346.jpg" class="mbr-figure__img"></div>
 
-                </figure>
+
+                    <div><img src="assets/images/recognitions-06.jpg" class="mbr-figure__img"></div>
+
+
             </div>
+  <br/>
         </div>
     </div>
 </section>

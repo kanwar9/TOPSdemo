@@ -22,44 +22,83 @@
 <body>
   <section id="dropdown-menu-2btn-2q" data-rv-view="203">
 
-    <nav class="navbar navbar-dropdown navbar-fixed-top">
+        <nav class="navbar navbar-dropdown navbar-fixed-top">
 
-        <div class="container">
+            <div class="container">
 
-            <div class="navbar-brand">
-                <a href="index.html" class="navbar-logo"><img class="enlarge-logo" src="assets/images/tops-logo-4-111x128.png" alt="Mobirise"></a>
+                <div class="navbar-brand">
+                    <a href="index.html" class="navbar-logo"><img class="enlarge-logo" src="assets/images/tops-logo-4-111x128.png" alt="Mobirise"></a>
+
+                </div>
+
+                <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                    <div class="hamburger-icon"></div>
+                </button>
+
+                            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar">
+                              <li class="nav-item"><a class="nav-link link" href="index.html" aria-expanded="false">HOME</a></li>
+                              <li class="nav-item"><a class="nav-link link" href="page8.html" aria-expanded="false">ABOUT US</a></li>
+                              <li class="nav-item"><a class="nav-link link" href="page13.html" aria-expanded="false">Why Tops</a></li>
+                              <li class="nav-item dropdown nav-service">
+                                <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">SERVICES</a>
+                                <div class="dropdown-menu dropdown-service-menu">
+                                  <a class="dropdown-item" href="page3.html">Custom Clearance</a>
+                                  <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false"style="
+                    padding-left: 20px;
+                ">Freight Forwarding</a>
+                                  <div class="dropdown-menu dropdown-submenu dropdown-freight-menu">
+                                  <a class="dropdown-item" href="page4.html">Air Freight</a>
+                                  <a class="dropdown-item" href="page2.html">Road Freight</a>
+                                  <a class="dropdown-item" href="page5.html">Sea Freight</a>
+                                </div>
+                                              <a class="dropdown-item" href="page6.html">Project Management</a>
+                                  <a class="dropdown-item" href="page7.html">Warehouse &amp; Distribution</a>
+                                  <a class="dropdown-item" href="page11.html" aria-expanded="false">Consultancy Services</a>
+                                  <a class="dropdown-item" href="page12.html" aria-expanded="false">LCL Consolidation</a>
+                                </div>
+                              </li>
+                              <li class="nav-item"><a class="nav-link link" href="page9.html">CLIENTS</a></li>
+                              <li class="nav-item"><a class="nav-link link" href="page14.html">CARRERS</a></li>
+
+                              <li class="nav-item dropdown"><a class="nav-link link" href="page10.html" aria-expanded="false">CONTACT US</a></li>
+                              <li class="nav-item nav-btn" ><a class="nav-link btn btn-link" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Get a Quote</a></li>
+                            </ul>
 
             </div>
 
-            <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
-                <div class="hamburger-icon"></div>
+        </nav>
+
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Get  A Quote</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
             </button>
-
-            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar">
-              <li class="nav-item"><a class="nav-link link" href="index.html" aria-expanded="false">HOME</a></li>
-              <li class="nav-item"><a class="nav-link link" href="page8.html" aria-expanded="false">ABOUT US</a></li>
-              <li class="nav-item"><a class="nav-link link" href="page8.html" aria-expanded="false">TOPS ADVANTAGE</a></li>
-              <li class="nav-item dropdown nav-service"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="https://mobirise.com/" aria-expanded="false">SERVICES</a>
-                <div class="dropdown-menu dropdown-service-menu">
-                  <a class="dropdown-item" href="page3.html">Custom Brokerage</a>
-                  <a class="dropdown-item" href="page4.html">Air Freight</a>
-                  <a class="dropdown-item" href="page2.html">Road Freight</a>
-                  <a class="dropdown-item" href="page5.html">Sea Freight</a>
-                  <a class="dropdown-item" href="page6.html">Project Management</a>
-                  <a class="dropdown-item" href="page7.html">Warehouse &amp; Distribution</a>
-                  <a class="dropdown-item" href="page11.html" aria-expanded="false">Consultancy Services</a>
-                  <a class="dropdown-item" href="page12.html" aria-expanded="false">LCL Consolidation</a>
+          </div>
+          <div class="modal-body">
+          <form action="formhandler.php" method="POST">
+    <div class="form-group">
+            <input type="text" class="form-control" placeholder="Name" name="name">
+          </div><div class="form-group">
+            <input type="email" class="form-control" placeholder="Email" name="email">
+                </div><div class="form-group">
+            <input type="tel" class="form-control" placeholder="Phone" name="phone">
+                </div><div class="form-group">
+            <textarea class="form-control" rows="3"></textarea>
+                </div><div class="form-group">
+            <input type="submit" class="form-control btn btn-lg btn-primary" value="Submit Form" >
                 </div>
-              </li>
-              <li class="nav-item"><a class="nav-link link" href="page9.html">CLIENTS</a></li>
-              <li class="nav-item dropdown"><a class="nav-link link" href="page10.html" aria-expanded="false">CONTACT US</a></li>
-              <li class="nav-item nav-btn"><a class="nav-link btn btn-link" href="assets/files/tops company profile.pdf" target="_blank">TOPS Profile</a></li>
-            </ul>
+          </form>
+          </div>
+
         </div>
-
-    </nav>
-
-</section>
+      </div>
+    </div>
 
 <section class="engine"><a href="https://mobirise.me/g">build a website for free</a></section><section class="mbr-section mbr-section--relative mbr-section--fixed-size mbr-parallax-background mbr-after-navbar" id="content5-3d" data-rv-view="205" style="background-image: url(assets/images/boxes-laptop-1-2048-2000x1334.jpg);">
     <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(184, 49, 47);"></div>

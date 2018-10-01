@@ -276,6 +276,14 @@ jQuery(function(b) {
       $('.dropdown-service-menu').hide();
     });
 
+    $('.nav-freight').mouseenter(function(){
+      $('.dropdown-freight-menu').show();
+    });
+
+    $('.nav-freight').mouseleave(function(){
+      $('.dropdown-freight-menu').hide();
+    });
+
     $(window).scroll(function() {
       var ST = $(document).scrollTop();
       if(ST == 0){
