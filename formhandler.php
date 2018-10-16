@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
 
-    $email_to = "YOUR EMAIL";
+    $email_to = "exim@topsairsea.com";
     $email_subject = "New Contact form filled on website";
 
     $email = $_POST['email'];
